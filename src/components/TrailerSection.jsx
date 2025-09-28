@@ -21,7 +21,7 @@ const TrailerSection = () => {
 
         <iframe
           width="820"
-          height="440"
+          height="430"
           className="mx-auto max-w-full rounded-lg shadow-lg"
           src={getEmbedUrl(currentTrailer.videoUrl)}
           title="Trailer"

@@ -22,11 +22,11 @@ const App = () => {
       { !isAdminRoute && < Navbar/>}
       <Routes>
         <Route path='/' element={<Home/>} />
-        <Route pat='/Movies' element={<Movies/>}/>
-        <Route pat='/Movies/:id' element={<MovieDetails/>}/>
-        <Route pat='/Movies/:id/:date' element={<SeatLayout/>}/>
-        <Route pat='/my-bookings' element={<MyBookings/>}/>
-        <Route pat='/favorite' element={<Favorite/>}/>
+        <Route path='/Movies' element={<Movies/>}/>
+        <Route path='/Movies/:id' element={<MovieDetails/>}/>
+        <Route path='/Movies/:id/:date' element={<SeatLayout/>}/>
+        <Route path='/mybookings' element={<MyBookings/>}/>
+        <Route path='/favorite' element={<Favorite/>}/>
       </Routes>
       { !isAdminRoute && <Footer/>}
     </>
